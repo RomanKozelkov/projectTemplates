@@ -1,0 +1,56 @@
+{
+  "name": "Playground",
+  "description": "Some description",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-hot-loader": "^4.3.11"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9",
+    "source-map-loader": "*",
+    "@types/webpack-env": "*",
+    "tslint-loader": "*",
+    "@babel/core": "*",
+    "@babel/cli": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "@babel/preset-typescript": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@types/react-router-dom": "*",
+    "typescript": "*",
+    "tslint": "*",
+    "tslint-react": "*",
+    "ts-jest": "*",
+    "@types/jest": "*",
+    "@types/enzyme": "*",
+    "@types/enzyme-adapter-react-16": "*",
+    "jest": "*"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ],
+    "moduleNameMapper": {
+      "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  }
+}
